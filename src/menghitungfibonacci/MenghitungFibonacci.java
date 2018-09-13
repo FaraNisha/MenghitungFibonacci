@@ -14,6 +14,15 @@ public class MenghitungFibonacci {
         
         String identitas = "Fara Nisha Sukma Gustika / XRPL2 / 14";
         tampilJudul(identitas);
-
-}
+        int n = tampilInput();
+        
+        }
+    private static int tampilInput() {
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.println("Bilangan ke : ");
+        int n = scanner.nextInt();
+        
+        return n;
+    }
 }
